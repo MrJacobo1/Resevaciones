@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+		<h1>¡Javascript!</h1>
+    </header>
+    <section>
+    <article id="general">
+        <div>
+            <h1 class="titulo">Reservaciones</h1>
+        </div>
+        <div>
+            <div class="opciones">
+                <h2>Nombre de cliente</h2>
+                <input class="formu" type="text" placeholder="Nombre" id="name">
+            </div>
+            <div class="opciones">
+                <h2>Correo Electronico</h2>
+                <input class="formu" type="text" placeholder="Correo Electronico" id="email">
+            </div>
+            <div class="opciones">
+                <h2>Destinos</h2>
+                <select name="lugar" id="destino">
+                    <option value="1">Leon</option>
+                    <option value="2">Ciudad de mexico</option>
+                </select>
+            </div>
+            <div class="opciones" >
+                <h2>Numero de habitaciones</h2>
+                <input class="formu" type="text" placeholder="Ingresa el numero de habitaciones" id="hab">
+            </div>
+            <div class="opciones" >
+                <h2>Numero de asientos</h2>
+                <input class="formu" type="text" placeholder="Ingresa el numero de lugares" id="asientos">
+            </div>
+            <div class="opciones" >
+                <h2>Numero de adultos</h2>
+                <input class="formu" type="text" placeholder="Ingrese cuantos adultos son" id="cant" onchange="ninos()" >
+            </div>
+<!--             <button onclick="ninos()">Continuar</button> -->
+        </div>
+    </article>
+    <article class="datos" id="dat">
+        <div>
+            <h2>Agregar niños</h2>
+        </div>
+        <div id="nin">
+        </div>
+        <div>
+            <button onclick="terminar()" id="fact">Terminar compra</button>
+        </div>
+    </article>
+</section>
+    <footer>D A N D </footer>
+
+    <script src="js/codigo.js"></script>
+</body>
+</html>

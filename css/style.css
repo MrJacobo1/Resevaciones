@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    background-color: #51445f;
+    text-align: center;
+    font-size: 16px;
+    color: #d1b68d;
+    padding: 10px 0px;
+    position: relative;
+    border: 1px solid #382f32;
+    font-family: 'Rampart One', cursive;
+}	
+.titulo{
+    font-family: 'Rampart One', cursive;
+    font-size: 50px;
+}
+section{
+    font-family: 'Amatic SC', cursive;
+	height:500px;
+	background-color: #5a5c75;
+	font-size:20px;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+}
+footer{
+    background-color: #51445f;
+}
+#general{
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 90%;
+    height: 200px;
+    display: inline-block;
+    background-color: #d1b68d;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 30px;
+}
+.opciones{
+    font-size: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+.formu{
+    width: 200px;
+}
+.datos{
+    display: none;
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 90%;
+    height: 200px;
+    /* display: inline-block; */
+    background-color: #d1b68d;
+    border: 1px solid #000;
+    text-align: center;
+}
+.ninos{
+    display: inline-flex;
+}
+#nin{
+    font-size: 10px;
+    display: inline-flex;
+}
+.otro{
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+#resultado{
+    text-align: center;
+    font-size: 30px;
+    background-color: #d1b68d;
+    border: 2.5px solid #000;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 5%;
+    height: auto;
+}
+.factura{
+    text-align: center;
+}
+button{
+    font-size: 25px;
+    width: 150px;
+    height: auto;
+    font-family: 'Amatic SC', cursive;
+}
+input,select{
+    width: 150px;
+    height: auto;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
